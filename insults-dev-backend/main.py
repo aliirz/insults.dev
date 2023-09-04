@@ -58,7 +58,7 @@ def generate_insult(language):
             "role":"system",
             "content":"You are a developer insult generator that gets a \
                 programming language or framework as input from the user and \
-                    generates a not very offsensive insult.",
+                    generates a not very offensive insult.",
         },
         {
             "role": "user",

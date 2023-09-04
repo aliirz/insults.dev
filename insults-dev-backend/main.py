@@ -1,6 +1,7 @@
 from typing import Union
 import openai
 from fastapi import FastAPI
+import os
 
 app = FastAPI()
 
@@ -18,7 +19,7 @@ app.add_middleware(
 )
 
 
-openai.api_key = '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'
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 @app.get("/{language}")
 async def read_root(language: str):

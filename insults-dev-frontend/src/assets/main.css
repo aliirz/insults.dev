@@ -1,0 +1,20 @@
+
+/* Push the footer to the bottom */
+.sticky-footer {
+  margin-top: auto;
+  background-color: #282c34; /* Dark background for contrast */
+  color: #ffffff; /* White text */
+  padding: 20px 0; /* Vertical padding */
+  text-align: center; /* Centered text */
+  font-family: 'Arial', sans-serif; /* Sample font, you can replace with your preferred font */
+}
+
+.sticky-footer a {
+  color: #FFD700; /* Gold color for the link */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition for hover effect */
+}
+
+.sticky-footer a:hover {
+  color: #ffffff; /* White color on hover */
+}
